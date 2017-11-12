@@ -1,0 +1,232 @@
+body {
+	height : auto;
+	width : auto;
+}
+header{
+	background-color: #c3e6f6;
+	height: 150px;
+	font-family:"century gothic";
+	text-align:left;
+	font-size: 58;
+}
+.logoweb img{
+	width:300px;
+	margin-top:50px;
+	margin-left:75px;
+}
+.cari{
+	position:relative;
+	margin-left:500;
+	margin-top:-80px;
+}
+.search{
+	padding:6px;
+	width:337px;
+	background: #fffff;
+    border:2px solid #336699;
+}
+.button{
+    padding:6px 20px;
+    border-radius: 3px;
+    border-color: #006699;
+    background-color: #336699;
+    color:#ffffff;
+    font-weight:bold;
+}
+.button:active{
+	background:#9ACD32;
+}
+.button:hover{
+	background: #000099;
+}
+.rumah {
+	left : 100%;
+	margin-left : 70px;
+	margin-top : 40px;
+}
+.readlog {
+	width : 100;
+	height : 100;
+	padding-left: 1px;
+}
+.logolog {
+	width : 109;
+	height : 25;
+	margin-left : 620px;
+}
+.logoreg img{
+	width : 109;
+	height : 25;
+	margin-left : 750px;
+}
+.rumah img, .read img {
+	width : 50;
+	height : 50;
+}
+.login {
+	margin-top : 50px;
+	font-family : Bookman Old Style;
+	text-align : center;
+	color : black;
+	font-size : 50;
+}
+h1
+{
+	margin-top : 75px;
+	font-family : Bookman Old Style;
+	text-align : center;
+	color : black;
+	font-size : 25;
+	text-decoration : bold;
+}
+.about {
+	margin-top: 35px;
+}
+h2
+{
+	margin-top : 25px;
+	font-family : Bookman Old Style;
+	text-align : center;
+	color : black;
+	font-size : 25;
+	text-decoration : bold;
+}
+p
+{
+	margin-top : 20px;
+	font-family : Bookman Old Style;
+	text-align : center;
+	color : black;
+	font-size : 20;
+}
+* 
+{
+	margin :0 ;
+	padding:0;
+}
+nav {
+ text-align: justify;
+ margin:auto;
+} 
+
+nav ul ul {
+ display: none;
+}
+
+nav ul li:hover > ul{
+display: block;
+width: auto;
+}
+nav ul {
+ background: #a7a8a8;
+ list-style: none;
+ position: relative;
+ display: inline-table;
+ width: 100%;
+}
+
+nav ul:after {
+ clear:both; 
+}
+
+nav ul li{
+ float:left;
+}
+
+nav ul li:hover{
+ background:#CAC6C5;
+}
+
+nav ul li:hover a{
+ color:#000000;
+}
+
+nav ul li a{
+ display: block;
+ padding: 10px ;
+ color: black;
+ text-decoration: none;
+}
+
+nav ul ul{
+ background: #CAC6C5; //warna submenu
+ padding: 0px;
+ position: absolute;
+ top:100%;
+}
+
+nav ul ul li{
+ float:none;
+ position: relative; //posisi submenu
+}
+
+nav ul ul li a{
+ padding: auto;
+}
+
+nav ul ul li a:hover{
+ background-color: #9c9fa0;
+}
+.belum {
+	margin-top : 10px;
+	font-family : Bookman Old Style;
+	font-size : 14;
+	text-align : center;
+}
+input[type=text], input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #bfc1c1;
+    color: black;
+	
+}
+.fname, .lname {
+  width: 12.5%;
+  font-size: 12;
+}
+.sama{
+	width : 25%;
+	font-size : 12;
+}
+.box{
+	position : static;
+	text-align: center;
+	padding:50px;
+}
+.buttonimg {
+	width : 247;
+	height : 83;
+}
+.sosmed {
+	width : 50;
+	height : 50;
+	float : left;
+	float : left;
+}
+.garis {
+	margin-top : 15px;
+	width : 30%;
+	size : 20%;
+	color : black;
+}
+.textfoot{
+	margin-top:-10px;
+    padding:0px 0px;
+    border:0px;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    padding-left: 10px;
+    line-height: 100px;
+	opacity:0.6;
+    position: relative;
+    bottom: 0px;
+	color : black;
+    background:#37988e;
+	top:300px;
+}
+//simpan : 
+</nav>
+<li><a href="alamatnya" onClick="return confirm ('Yakin?')">Logout</a></li>
